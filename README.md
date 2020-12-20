@@ -123,10 +123,10 @@ pm2 start server.js
 ## If you want to turn on SSL certificate follow these extra steps 
 ## Install letsencrypt SSL certificate
 /*
-`
-sudo snap install core; sudo snap refresh core
-sudo snap install --classic certbot
-sudo certbot --nginx
+
+### sudo snap install core; sudo snap refresh core
+### sudo snap install --classic certbot
+### sudo certbot --nginx
 `
 
 */
