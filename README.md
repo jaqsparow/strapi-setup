@@ -119,3 +119,11 @@ strapi().start();
 pm2 start server.js
 
 //Thats it. You should be able to visit exapmle.com and then example.com/admin
+
+## If you want to turn on SSL certificate follow these extra steps 
+## Install letsencrypt SSL certificate
+/*
+sudo snap install core; sudo snap refresh core
+sudo snap install --classic certbot
+sudo certbot --nginx
+*/
